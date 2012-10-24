@@ -1,7 +1,18 @@
-#*
 \#*\#
 *~
 TAGS
 db/schema.rb
 log/
 db/*.sqlite3
+tmp/
+
+# bundler state
+/.bundle
+/vendor/bundle/
+
+# Ignore all RubyMine files
+.idea/
+public/uploads
+
+# Ignore coverage reports
+coverage
