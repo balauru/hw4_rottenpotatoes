@@ -13,8 +13,10 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
+  gem 'rspec'
   gem 'rspec-rails'
   gem 'simplecov'
+  gem 'guard'
   gem 'guard-rspec'
   gem 'guard-cucumber'
 end
